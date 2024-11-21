@@ -2,7 +2,7 @@
 import mongoose from 'mongoose';
 
 
-const url = process.env.DB_URL;
+const url = "mongodb+srv://asimswar:asimswar@cluster0.yikjw1w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 export const connectUsingMongoose = async()=>{
     try {
